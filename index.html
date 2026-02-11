@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitaVani — Voice of the Gita</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            background: #FFFDF7;
+            color: #2C2C2C;
+            line-height: 1.7;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 60px 24px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #1a1a1a;
+        }
+        .tagline {
+            font-size: 1.1rem;
+            color: #8B7355;
+            font-style: italic;
+            margin-bottom: 40px;
+        }
+        .description {
+            font-size: 1.05rem;
+            color: #4A4A4A;
+            margin-bottom: 32px;
+            text-align: left;
+        }
+        .features {
+            text-align: left;
+            margin-bottom: 40px;
+        }
+        .features li {
+            margin-bottom: 8px;
+            color: #4A4A4A;
+            list-style: none;
+            padding-left: 24px;
+            position: relative;
+        }
+        .features li::before {
+            content: "\2022";
+            color: #C4841D;
+            font-size: 1.4rem;
+            position: absolute;
+            left: 4px;
+            top: -2px;
+        }
+        .links {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid #E8E0D0;
+        }
+        .links a {
+            color: #8B7355;
+            text-decoration: none;
+            margin: 0 16px;
+            font-size: 0.95rem;
+        }
+        .links a:hover {
+            color: #C4841D;
+        }
+        .badge {
+            margin-top: 40px;
+        }
+        .badge img {
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>GitaVani</h1>
+        <p class="tagline">Voice of the Gita</p>
+
+        <p class="description">
+            A clean, ad-free reader for the Bhagavad Gita. All 701 verses across 18 chapters,
+            with Sanskrit text, transliteration, and translations from 12 scholars in Hindi and English.
+        </p>
+
+        <ul class="features">
+            <li>Sanskrit shlokas with Roman transliteration</li>
+            <li>Translations from 12 scholars in Hindi and English</li>
+            <li>Swipe navigation between verses</li>
+            <li>4 reading themes including dark mode</li>
+            <li>Adjustable font size</li>
+            <li>Bookmark and resume reading</li>
+            <li>No ads, no tracking, no internet required</li>
+        </ul>
+
+        <!-- <div class="badge">
+            <a href="#">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+            </a>
+        </div> -->
+
+        <div class="links">
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/support">Support</a>
+        </div>
+    </div>
+</body>
+</html>
